@@ -39,8 +39,12 @@ public class Ponto{
 		System.out.println (p1.getX()+" "+p1.getY());
 		System.out.println (p2.getX()+" "+p2.getY());
 		System.out.println (p3.getX()+" "+p3.getY());
-		
-		
+		double distancia, px, py, soma;
+		px = (p2.getX() - p1.getX());
+		py = (p2.getY() - p2.getY());
+		soma = (Math.pow(px,2) + Math.pow(py,2));
+		distancia = Math.sqrt(soma);
+		System.out.println (distancia);
 	}
 
 }
