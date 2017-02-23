@@ -54,6 +54,8 @@ public class Ponto{
 	//	distancia = Math.sqrt(soma);
 	//	System.out.println (distancia);
 		Reta r1 = new Reta();
+		r1.setP1(p1);
+		r1.setP2(p2);
 		r1.getP1().setX(10);
 		r1.getP1().setY(15);
 		r1.getP2().setX(20);
